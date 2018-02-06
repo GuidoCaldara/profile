@@ -1,0 +1,125 @@
+body{
+  background-color: #F0F5F9;
+  margin-top: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .responsive {
+    width: 600px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  /* For a screen < 720px, this CSS will be read */
+  .responsive {
+    width: 400px !important;
+  }
+}
+
+
+/* HEADER
+*/#header{
+  border-radius: 6px;
+  background-color: #C9D6DF;
+  width:800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border:4px black solid;
+
+}
+
+.item {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%
+ }
+
+.container:hover .item {
+ -webkit-transform: scale(1.4);
+ transform: scale(1.4);
+ transition: all .5s;
+ }
+
+.avatar{
+  width: 300px;
+  border-radius: 50%;
+  border: 2px rgb(234, 234, 234) solid;
+}
+
+#title{
+  margin-bottom: 5px
+}
+
+#subtitle{
+  margin-top: 5px;
+}
+
+/*SOCIAL*/
+
+#social{
+  border-radius: 6px;
+  background-color: #C9D6DF;
+  width:800px;
+  margin: 30px auto;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(234, 234, 234);
+  padding: 10px 30px;
+
+}
+
+.social{
+  font-size: 50px;
+  margin: 0 15px;
+}
+
+#social a {
+  color: black;
+}
+
+#social a :hover{
+  color: #EA5455
+}
+
+/*TABLE
+*/
+
+.text-center{
+  text-align:center;
+}
+
+.td {
+  text-align: left;
+  width: auto;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-top: 20px;
+  margin-bottom:20px;
+
+}
+
+.color-black {
+  color: black
+}
+
+
